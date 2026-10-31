@@ -71,3 +71,10 @@ The analysis demonstrates dataset profiling, missing-value handling, duplicate c
 
 ### 4. Pairwise Scatterplots
 ![Pairwise Scatterplots](outputs/figures/04_pairwise_scatterplots.png)
+
+
+## Notebook Execution Screenshots
+
+![Task 1 Results](screenshots/task1-results.png)
+
+![Task 1 Correlation Heatmap](screenshots/task1-correlation-heatmap.png)
