@@ -32,10 +32,13 @@ The original dataset is preserved. The cleaned dataset is saved separately as `o
 Potential outliers were checked using the Interquartile Range (IQR) method. Values below Q1 − 1.5 × IQR or above Q3 + 1.5 × IQR were flagged. No potential outliers were detected in the four numerical measurements examined. No outliers were removed.
 
 ## Key Findings
-- Gentoo penguins had the highest mean body mass, approximately 5,068 g.
-- Adelie penguins had a mean body mass of approximately 3,703 g.
-- Chinstrap penguins had a mean body mass of approximately 3,733 g.
-- The correlation heatmap and scatterplots can be used to examine relationships between flipper length, body mass, and bill measurements.
+
+- Gentoo penguins had the highest mean body mass (5,067.74 g) and mean flipper length (217.02 mm).
+- Chinstrap penguins had the highest mean bill length (48.83 mm), while Adelie penguins had the lowest (38.83 mm).
+- Flipper length and body mass showed a strong positive correlation (r = 0.871).
+- Bill length showed moderate positive correlations with flipper length (r = 0.656) and body mass (r = 0.595).
+- Bill depth showed negative correlations with flipper length (r = -0.584) and body mass (r = -0.472).
+- These findings are descriptive and do not establish causal relationships.
 
 ## Project Structure
 - `data/penguins.csv` — original dataset
