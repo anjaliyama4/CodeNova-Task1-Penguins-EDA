@@ -12,6 +12,15 @@ The dataset contains 344 rows and 8 columns, including:
 - Sex and year
 
 The dataset includes naturally occurring missing values.
+## Dataset Source and Attribution
+
+- **Dataset:** Palmer Penguins
+- **Authors:** Allison Horst, Alison Hill, and Kristen Gorman
+- **Source:** https://allisonhorst.github.io/palmerpenguins/
+- **Repository:** https://github.com/allisonhorst/palmerpenguins
+
+Refer to the original repository for applicable dataset license and usage terms.
+
 
 ## Analysis Performed
 1. Dataset profiling: shape, data types, summary statistics, and missing-value counts.
